@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "Adedayo-docker-tfstate"
+  bucket = "adedayo-docker-tfstate"
      
   lifecycle {
     prevent_destroy = true
